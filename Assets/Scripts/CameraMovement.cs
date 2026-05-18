@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CameraMovement : MonoBehaviour{
 
@@ -35,13 +36,13 @@ public class CameraMovement : MonoBehaviour{
         //Increment or Decrement Camera Position Index
         if (Vector3.Distance(transform.position, cameraNodes[cameraIndex].transform.position) < proximity) {
 
-            if (Input.GetKeyDown("w")) {
+            if (Keyboard.current.wKey.wasPressedThisFrame) {
                 cameraIndex++;
 
                 if (cameraIndex >= cameraNodes.Length - 1)
                     cameraIndex = cameraNodes.Length - 1;
             }
-            else if (Input.GetKeyDown("s")) {
+            else if (Keyboard.current.sKey.wasPressedThisFrame) {
                     cameraIndex--;
                     if (cameraIndex <= 0)
                         cameraIndex = 0;
@@ -61,11 +62,11 @@ public class CameraMovement : MonoBehaviour{
                 transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, adjRotSpeed);
             }
 
-            //Play Audio if contains Audio Source and is not playing
-            if (objects[cameraIndex].GetComponent<AudioSource>() != null){
-                if (!objects[cameraIndex].GetComponent<AudioSource>().isPlaying)
-                    objects[cameraIndex].GetComponent<AudioSource>().Play();
-            }
+            ////Play Audio if contains Audio Source and is not playing
+            //if (objects[cameraIndex].GetComponent<AudioSource>() != null){
+            //    if (!objects[cameraIndex].GetComponent<AudioSource>().isPlaying)
+            //        objects[cameraIndex].GetComponent<AudioSource>().Play();
+            //}
         }
     }
 

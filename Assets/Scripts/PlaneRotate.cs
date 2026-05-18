@@ -7,7 +7,7 @@ public class PlaneRotate : RotateBob
     // Update is called once per frame
     void Update()
     {
-        Rotate3Axes(0, rotateSpeed, 0);
+        Rotate3Axes(transform.rotation.x, rotateSpeed, transform.rotation.z);
         Bob(bobbingHeight, bobbingSpeed, yOffset);
     }
 }
