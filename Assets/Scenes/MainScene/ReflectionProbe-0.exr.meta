@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Scenes/MainScene/ReflectionProbe-0.exr.meta
 guid: 496d52d08d91c2b4db07ff9dd3751954
-========
-guid: cdd7d59f82972cf47bab98660cacaa6f
->>>>>>>> Eli:Assets/Lighting/ReflectionProbe-0.exr.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
