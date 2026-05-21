@@ -8,7 +8,7 @@ public class RotateBob: MonoBehaviour
     [SerializeField] protected float bobbingSpeed = 3.5f;
     [SerializeField] protected float yOffset = 0.8f;
 
-    private Vector3 currentVector;
+    protected Vector3 currentVector;
 
     //// Update is called once per frame
     //void Update()

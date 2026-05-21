@@ -1682,7 +1682,7 @@ PrefabInstance:
       addedObject: {fileID: 460350980}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e7588b990642744396850947d273b56, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 460350981}
+      addedObject: {fileID: 460350984}
   m_SourcePrefab: {fileID: 100100000, guid: 5e7588b990642744396850947d273b56, type: 3}
 --- !u!4 &460350978 stripped
 Transform:
@@ -1715,7 +1715,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0031171818, y: 0.0001311026, z: 0.0019184442}
   m_Center: {x: -1.8630703e-18, y: -0.00006555008, z: -1.7462297e-10}
---- !u!114 &460350981
+--- !u!114 &460350984
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1724,9 +1724,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 460350979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc13929360146b74bbdbab85f5ab16c3, type: 3}
+  m_Script: {fileID: 11500000, guid: ff7dbbf96aa869145a654e5d5d1440b7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlaneRotate
+  m_EditorClassIdentifier: Assembly-CSharp::ExitSignRotate
   rotateSpeed: 50
   bobbingHeight: 0.06
   bobbingSpeed: 3.5
