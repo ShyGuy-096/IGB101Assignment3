@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     [Header("Level Progression")]
     public int currentPickups = 0;
     public int maxPickups = 9;
-    public bool isLevelCompleted = false;
+    public bool levelComplete = false;
     public Text pickupText;
 
     [Header("Object References")]
@@ -40,11 +40,11 @@ public class GameManager : MonoBehaviour
     {
         if (currentPickups >= maxPickups)
         {
-            isLevelCompleted = true;
+            levelComplete = true;
         }
         else
         {
-            isLevelCompleted = false;
+            levelComplete = false;
         }
     }
 }

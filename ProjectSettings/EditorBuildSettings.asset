@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Noah/Scenes/NoahScene.unity
+    guid: 0f22d5f551a52fc4d99c1e040fcefcf9
+  - enabled: 1
+    path: Assets/Eli/The Museum Project.unity
+    guid: 946104e3d387e794e91344847fd4fdde
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
