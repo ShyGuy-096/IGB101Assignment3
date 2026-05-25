@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Noah/Scenes/NoahScene.unity
+    path: Assets/Noah/Scenes/LiminallMuseum.unity
     guid: 0f22d5f551a52fc4d99c1e040fcefcf9
   - enabled: 1
     path: Assets/Eli/The Museum Project.unity
