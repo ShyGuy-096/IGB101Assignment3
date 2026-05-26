@@ -47,6 +47,7 @@ namespace StarterAssets
 		public void OnWave(InputValue value)
 		{
 			WaveInput(value.isPressed);
+			UnityEngine.Debug.Log("QUACKQUACK");
 		}
 #endif
 
