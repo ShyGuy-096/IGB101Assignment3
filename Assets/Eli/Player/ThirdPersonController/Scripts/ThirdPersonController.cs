@@ -365,6 +365,7 @@ namespace StarterAssets
                         _animator.SetTrigger("WaveTrigger");
                         
                     }
+                    _input.wave = false;
             }
         }
 

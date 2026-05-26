@@ -38,6 +38,7 @@ namespace StarterAssets
 		public void OnJump(InputValue value)
 		{
 			JumpInput(value.isPressed);
+			UnityEngine.Debug.Log("QUACKQUACKHOP");
 		}
 
 		public void OnSprint(InputValue value)
