@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Security;
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
@@ -394,7 +395,6 @@ namespace StarterAssets
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
-
                 if (AudioFootsteps != null)
                     AudioFootsteps.Play();
                 if (AudioFoley != null)
