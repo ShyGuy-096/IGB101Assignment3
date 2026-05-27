@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Diagnostics;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -163,6 +164,7 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+            Wave();
         }
 
         private void LateUpdate()
@@ -359,8 +361,11 @@ namespace StarterAssets
             {
                 if (_hasAnimator)
                     {
-                        _animator.SetBool(_animIDWave, true);
+                        // _animator.ResetTrigger("WaveTrigger");
+                        _animator.SetTrigger("WaveTrigger");
+                        
                     }
+                    _input.wave = false;
             }
         }
 
