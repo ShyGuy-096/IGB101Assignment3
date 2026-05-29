@@ -14633,7 +14633,7 @@ MonoBehaviour:
   currentPickups: 0
   maxPickups: 7
   levelComplete: 0
-  pickupText: {fileID: 186811585}
+  pickupText: {fileID: 0}
   player: {fileID: 1931830309}
   audioSources:
   - {fileID: 1349433377}
